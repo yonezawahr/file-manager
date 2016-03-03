@@ -29,7 +29,7 @@ public class TestExcelManager {
 	
 	@Test
 	public void test() {
-		ExcelManager manager = new ExcelManager();
+		ExcelOperator manager = new ExcelOperator();
 		manager.open(new File(""));
 	}
 }
